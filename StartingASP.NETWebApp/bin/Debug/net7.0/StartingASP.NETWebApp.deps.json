@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "StartingASP.NETWebApp/1.0.0": {
+        "dependencies": {
+          "StartingASP.NETWebApp.Data": "1.0.0"
+        },
+        "runtime": {
+          "StartingASP.NETWebApp.dll": {}
+        }
+      },
+      "StartingASP.NETWebApp.Core/1.0.0": {
+        "runtime": {
+          "StartingASP.NETWebApp.Core.dll": {}
+        }
+      },
+      "StartingASP.NETWebApp.Data/1.0.0": {
+        "dependencies": {
+          "StartingASP.NETWebApp.Core": "1.0.0"
+        },
+        "runtime": {
+          "StartingASP.NETWebApp.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StartingASP.NETWebApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StartingASP.NETWebApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StartingASP.NETWebApp.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

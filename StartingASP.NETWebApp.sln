@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartingASP.NETWebApp", "StartingASP.NETWebApp\StartingASP.NETWebApp.csproj", "{E8CFD9F0-2130-4831-8F5F-A1E1B9675DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartingASP.NETWebApp.Core", "StartingASP.NETWebApp.Core\StartingASP.NETWebApp.Core.csproj", "{B24F55BB-B1FB-4F0E-971F-3D37FBB6762E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartingASP.NETWebApp.Data", "StartingASP.NETWebApp.Data\StartingASP.NETWebApp.Data.csproj", "{2009BBB2-20C9-4083-B4D9-2DFA6E85870F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8CFD9F0-2130-4831-8F5F-A1E1B9675DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CFD9F0-2130-4831-8F5F-A1E1B9675DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CFD9F0-2130-4831-8F5F-A1E1B9675DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CFD9F0-2130-4831-8F5F-A1E1B9675DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24F55BB-B1FB-4F0E-971F-3D37FBB6762E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24F55BB-B1FB-4F0E-971F-3D37FBB6762E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24F55BB-B1FB-4F0E-971F-3D37FBB6762E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24F55BB-B1FB-4F0E-971F-3D37FBB6762E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2009BBB2-20C9-4083-B4D9-2DFA6E85870F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2009BBB2-20C9-4083-B4D9-2DFA6E85870F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2009BBB2-20C9-4083-B4D9-2DFA6E85870F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2009BBB2-20C9-4083-B4D9-2DFA6E85870F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

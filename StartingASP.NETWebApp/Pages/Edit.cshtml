@@ -1,0 +1,47 @@
+﻿@page "{restaurantId:int?}"
+@model StartingASP.NETWebApp.Pages.Edit
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Edit Restaurant</title>
+</head>
+<body>
+<div>
+    @if (Model.Restaurant.Id == 0)
+    {
+        <h2>Adding New Restaurant</h2>
+    }
+    else
+    {
+        <h2>Editing @Model.Restaurant.Name</h2>
+    }
+
+    <form method="post">
+        <input type="hidden" asp-for="Restaurant.Id">
+        <div class="mb-3">
+            <label asp-for="Restaurant.Name" class="form-label"></label>
+            <input asp-for="Restaurant.Name" class="form-control">
+            <span class="text-danger" asp-validation-for="Restaurant.Name"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Restaurant.Location" class="form-label"></label>
+            <input asp-for="Restaurant.Location" class="form-control">
+            <span class="text-danger" asp-validation-for="Restaurant.Location"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Restaurant.Cuisine" class="form-label"></label>
+            <Select asp-for="Restaurant.Cuisine" asp-items="Model.Cuisines" class="form-control">
+            </Select>
+            <span class="text-danger" asp-validation-for="Restaurant.Cuisine"></span>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

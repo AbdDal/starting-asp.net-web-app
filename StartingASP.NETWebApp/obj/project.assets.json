@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "StartingASP.NETWebApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/StartingASP.NETWebApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StartingASP.NETWebApp.Core.dll": {}
+        }
+      },
+      "StartingASP.NETWebApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "StartingASP.NETWebApp.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StartingASP.NETWebApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StartingASP.NETWebApp.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StartingASP.NETWebApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../StartingASP.NETWebApp.Core/StartingASP.NETWebApp.Core.csproj",
+      "msbuildProject": "../StartingASP.NETWebApp.Core/StartingASP.NETWebApp.Core.csproj"
+    },
+    "StartingASP.NETWebApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../StartingASP.NETWebApp.Data/StartingASP.NETWebApp.Data.csproj",
+      "msbuildProject": "../StartingASP.NETWebApp.Data/StartingASP.NETWebApp.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "StartingASP.NETWebApp.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\MorjanM\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\MorjanM\\OneDrive\\Desktop\\AbdDal Internship One\\StartingASP.NETWebApp\\StartingASP.NETWebApp\\StartingASP.NETWebApp.csproj",
+      "projectName": "StartingASP.NETWebApp",
+      "projectPath": "C:\\Users\\MorjanM\\OneDrive\\Desktop\\AbdDal Internship One\\StartingASP.NETWebApp\\StartingASP.NETWebApp\\StartingASP.NETWebApp.csproj",
+      "packagesPath": "C:\\Users\\MorjanM\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MorjanM\\OneDrive\\Desktop\\AbdDal Internship One\\StartingASP.NETWebApp\\StartingASP.NETWebApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\MorjanM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/Brandxdevelopers/_packaging/BrandX.Library/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\MorjanM\\OneDrive\\Desktop\\AbdDal Internship One\\StartingASP.NETWebApp\\StartingASP.NETWebApp.Data\\StartingASP.NETWebApp.Data.csproj": {
+              "projectPath": "C:\\Users\\MorjanM\\OneDrive\\Desktop\\AbdDal Internship One\\StartingASP.NETWebApp\\StartingASP.NETWebApp.Data\\StartingASP.NETWebApp.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

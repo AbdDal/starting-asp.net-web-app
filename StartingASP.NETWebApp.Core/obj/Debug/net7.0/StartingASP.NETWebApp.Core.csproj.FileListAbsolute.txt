@@ -1,0 +1,12 @@
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\bin\Debug\net7.0\StartingASP.NETWebApp.Core.deps.json
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\bin\Debug\net7.0\StartingASP.NETWebApp.Core.dll
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\bin\Debug\net7.0\StartingASP.NETWebApp.Core.pdb
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\obj\Debug\net7.0\StartingASP.NETWebApp.Core.csproj.AssemblyReference.cache
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\obj\Debug\net7.0\StartingASP.NETWebApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\obj\Debug\net7.0\StartingASP.NETWebApp.Core.AssemblyInfoInputs.cache
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\obj\Debug\net7.0\StartingASP.NETWebApp.Core.AssemblyInfo.cs
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\obj\Debug\net7.0\StartingASP.NETWebApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\obj\Debug\net7.0\StartingASP.NETWebApp.Core.dll
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\obj\Debug\net7.0\refint\StartingASP.NETWebApp.Core.dll
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\obj\Debug\net7.0\StartingASP.NETWebApp.Core.pdb
+C:\Users\MorjanM\RiderProjects\StartingASP.NETWebApp\StartingASP.NETWebApp.Core\obj\Debug\net7.0\ref\StartingASP.NETWebApp.Core.dll
